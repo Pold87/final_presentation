@@ -1,0 +1,23 @@
+\documentclass{beamer}
+
+\usepackage{graphicx}
+\usepackage{multimedia}
+\usepackage{tikz}
+
+\begin{document}
+\begin{frame}{}
+  \begin{center}
+    \movie[label=show3,width=0.8\textwidth,showcontrols,poster]
+    {\includegraphics[width=0.8\textwidth]{target_landing.png}}{target_landing.mp4}
+%    {}{target_landing.mp4}
+  \end{center}
+
+  \end{frame}
+ %  \begin{frame}[plain]
+ %      \begin{tikzpicture}[remember picture,overlay]
+ %         \node[anchor=south west, inner sep=0pt] at (current page.south west) {%
+ % \movie[height = \paperheight, width = \paperwidth, poster, showcontrols] {}{particle_filter.mp4}%
+ %         };
+ %      \end{tikzpicture}
+ %   \end{frame}
+ \end{document}
